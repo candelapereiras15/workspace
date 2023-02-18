@@ -1,0 +1,63 @@
+
+		body {
+			background-color: #272733; /* Fondo gris oscuro */
+			color: rgb(176, 188, 221); /* Texto blanco */
+			font-family: verdana; /* Fuente sans-serif */
+		}
+		.inicio {
+			font-size:30px;
+			font-weight: bold;
+			margin-top: 5px; /* Espaciado superior */
+		}
+		form {
+			background-color: #3c3d4bf8; /* Fondo gris claro */
+			border-radius: 10px; /* Bordes redondeados */
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+			margin: 0 auto; /* Centrar en la página */
+			max-width: 400px; /* Ancho máximo */
+			padding: 40px; /* Espaciado interno */
+		}
+		form label {
+			display: block; /* Mostrar etiquetas en línea */
+			margin-bottom: 5px; /* Espaciado inferior */
+		
+		}
+		form input {
+			border-radius: 5px; /* Bordes redondeados */
+			box-sizing: border-box; 
+			width:400px;
+			height: 45px;
+			margin-bottom: 20px;
+		}
+		form input[type="submit"] {
+			background-color: rgb(76, 76, 209); /* Color de fondo del botón de envío */
+			border-radius: 5px; /* Bordes redondeados */
+			color: white; /* Texto blanco */
+			cursor: pointer; /* Cambiar el cursor al pasar por encima */
+			font-size: 16px; /* Tamaño de fuente */
+			margin-top: 20px; /* Espaciado superior */
+			padding: 10px 20px; /* Espaciado interno */
+			text-transform: uppercase; /* Texto en mayúsculas */
+			height: 50px;
+		}
+	
+	.error-container{
+		position: relative;
+			display: none;
+		  }
+	
+
+	.icon-error{
+		width: 21px;
+		position: absolute;
+		right: 15px;
+		top: -45px;
+	}
+
+	.error{
+		color:red;
+		font-style: italic;
+		text-align: left;
+		font-size: 10px;
+		margin: -12px 2px;		
+	}
